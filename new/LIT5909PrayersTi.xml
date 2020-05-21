@@ -1,11 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LIT5909PrayersTi" xml:lang="en" type="work">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" xml:id="t1">Collection of Prayers in Tigrinya</title>
+                <title xml:lang="en" xml:id="t1">Collection of prayers in Tigrinya</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -55,15 +55,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition">
                 <div type="textpart" subtype="incipit" xml:lang="ti">
                     <note>The following incipit is taken from <ref type="mss" corresp="DSEthiop23"/>.</note>
-                    <ab>  ብአቦ፡  ስም፡  ብወዲ፡  ስምን፡  ብመንፈስ፡  ቅዱስ፡  ስምን፡ 
+                    <ab>  ብአቦ፡  ስም፡  ብወዲ፡  ስምን፡  ብመንፈስ፡  ቅዱስ፡  ስምን፡
                         ሐደ፡  አምላክ፡  አሜን። በስመ፡  አብ፡  ወወልድ፡  ወመንፈስ፡  ቅዱስ፡   አሐዱ፡  አምላክ፡  አሜን ።
                         እግዚኦ፡  ነመስግነከ፡  አሎና፡  እግዚኦ፡  ነክብረካ፡  አሎና፡  እግዚኦ፡  ብአኻ፡  ንእመን፡  አሎና።</ab>
                 </div>
                 <div type="textpart" subtype="explicit" xml:lang="ti">
                     <note>The following explicit is taken from <ref type="mss" corresp="DSEthiop23"/>.</note>
-                    <ab>    ከምቲ፡  ነቦታትና፡  ንአብርሃምን፡  ንዘርዑን፡  ዝነገሮም፡  ክሳዕ፡  ዘለዓለም፡  ምሕረቱ፡  እናዘከረ፡  
+                    <ab>    ከምቲ፡  ነቦታትና፡  ንአብርሃምን፡  ንዘርዑን፡  ዝነገሮም፡  ክሳዕ፡  ዘለዓለም፡  ምሕረቱ፡  እናዘከረ፡
                         ንእስራኤል፡  ባርያኡ፡  ተቀበሎ። (ብሥራተ፡  ሉቃ፡  1፡  46-55።)
-                        ካብ፡  እዙይ፡  ንደኀር፡  ዘሎ፡  ከአ፡  እቲ፡  ጸሎታት፡  እዩ። ሰለ፡  እዚ፡  ባህልን፡  እምነትን፡  ፍቅሪ፡  ዓድና፤ ሎሚ፡  ግዝእቲ፡  ጽባሕ፡  ሐራ፡  እትከውን፡  
+                        ካብ፡  እዙይ፡  ንደኀር፡  ዘሎ፡  ከአ፡  እቲ፡  ጸሎታት፡  እዩ። ሰለ፡  እዚ፡  ባህልን፡  እምነትን፡  ፍቅሪ፡  ዓድና፤ ሎሚ፡  ግዝእቲ፡  ጽባሕ፡  ሐራ፡  እትከውን፡
                         ኤርትራ፡  ከይትርስዑ፡  ኢለ፡  እነሄ፡  ጽሐፈልኩም፡  አሎኩ፡  ኤርትራዊ፡  አቦኩምን፡  ሐውኩምን፡  አባ፡  ጴጥሮስ፡  ገብረ፡  ሥላሴ።</ab>
                 </div>
             </div>
