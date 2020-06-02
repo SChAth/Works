@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <fileDesc>
          <titleStmt>
 
-            <title xml:lang="gez" xml:id="t1">መሓልየ፡ ነቢያት</title>
+            <title xml:lang="gez" xml:id="t1">መሓልየ፡ ነቢያት፡</title>
             <title xml:lang="gez" corresp="#t1" type="normalized">Maḥālǝya nabiyāt</title>
             <title xml:lang="en" corresp="#t1">The Canticles of the Prophets</title>
 
@@ -76,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <relation name="saws:contains" active="LIT1828Mahale" passive="LIT2277salotu LIT2278salota LIT2703salota LIT2257salota LIT2258salota                   LIT2265salota LIT2274salota  LIT2271salota LIT2250salota LIT2251salota LIT2259salota LIT1566hababa                    LIT2272salota LIT2275salota LIT1827Magnif"/>
                          <relation name="ecrm:CLP46i_may_form_part_of" active="LIT1828Mahale" passive="LIT3985Mazmura"/>
             </listRelation>
-            
+
             <listBibl type="secondary">
                <bibl><ptr target="bm:Devens2007Mahaleya"/></bibl>
             </listBibl>
