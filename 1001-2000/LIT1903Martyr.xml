@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT1903Martyr">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Martyrium of Theocritus the lector</title>
+            <title xml:lang="gez" xml:id="t1">ስምዕ፡ ዘቴዎቅሪጦስ፡ አናግኖስጢስ፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t1">Sǝmʿ za-Tewoqriṭos ʾanāgnosṭis</title>
+            <title xml:lang="en" xml:id="t2">Martyrium of Theocritus the lector</title>
             <editor role="generalEditor" key="AB"/>
-            <funder>Akademie der Wissenschaften in Hamburg</funder>
+            <editor key="MKr"></editor>
+          <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -34,24 +37,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language></langUsage>
+<abstract><p>The Gǝʿǝz title is taken from <ref type="mss" corresp="BNFabb179"/>.</p></abstract>
          <textClass>
             <keywords>
                <term key="ChristianLiterature"/>
                <term key="Hagiography"/>
                <term key="Translation"/>
             </keywords>
-         </textClass>
+           </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-03-21"> Created file from google
             spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: text record</change>
          <change who="DR" when="2017-03-17">Added keywords</change>
+         <change who="MKr" when="2020-10-28">Added Ethiopic title and relations</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
-         <ab/>
+        <div type="bibliography">
+            <listRelation>
+                <relation name="ecrm:P129_is_about" active="LIT1903Martyr" passive="PRS9460Theocrit"/>
+            </listRelation>
+
+            <listRelation>
+                <relation name="saws:formsPartOf" active="LIT1903Martyr" passive="LIT1493Gadlas"/>
+            </listRelation>
+
+        </div>
+
+         <div type="edition" xml:lang="gez">
+<ab>
+(f. 65rb) ስምዕ፡ ዘቴዎቅሪጦስ፡ አናጒንስጢስ፡ ዘከመ፡ ተከለለ፡ ስምዕ፡ በእንተ፡ ኢየሱስ፡ ክርስቶስ፡ ወተገብረ፡ መሥዋዕተ፡ ጽንሐሕ፡
+እምኀቤሆሙ፡ ለመጣዕያዊያን፡ በቀሚጦልያ፡ ወሮሜ። ወበውእቱ፡ መዋዕል፡ በከመ፡ ይትሐዘቡ፡ እምንቱ፡ ውፁአን፡ እ <pb n="65v"/><cb n="a"/>ምእግዚአብሔር፡
+ፍሥሓ፡ ዐቢይ፡ ቦሙ። ወበአሐተ፡ እምዕለታት፡ መምከርት፡ ወጠበብት፡ ወመሰግላን፡ ወመርአይት፡ ወብዙኃን፡ እምቈላስ፡ ቴጓት፡ ሕብረ፡ ምስሌሆሙ፡ ለርኩሳን፡
+ወመረይት፡ አስተራድእዎ፡ ወአኅበርዎ፡ ለንጉሥ፡ ጠጥያኖስ፡ ከመ፡ ይግበር፡ መሥዋዕተ፡ ለዘ፡ ስሙ፡ አምላኮሙ፡ አስክልጵያዶስ። ወለዛቲ፡ ነገረ፡ ዕበዶሙ፡
+ኀበረ፡ ወመብዝኅቶሙ፡ ለሀገር፡ አኮ፡ ከመ፡ ዕበዶሙ፡ ዘፀግቡ፡ ዓዲ፡ ክርስቲያንኒ፡ ይምሥጡ፡ ተማከሩ፡ ውስጤቱ፡ ዘሰይጣን፡ ይሔሊ፡ ጣዖቶሙ፡ ዘንተ፡ ተማኪሮሙ፡
+ጊጉያነ፡ ሕሌና፡ ይቤልዎ፡ ለንጉሥ፡ ንጉሥ፡ ዘኢይትመዋእ፡ ዐርከ፡ አማልክት፡ ወዐምደ፡ ኵሉ፡ አለም፡ ዐቢይ፡ ኀያል፡ ዘየማን፡ ይሬዒ፡ ኵሉ፡ ምድራ፡ ዘሮሜ። ወኵሎ፡
+አሕዛብ፡ ግሩፋን፡ ለከ፡ ፍቅረ፡ መዊኦትከ፡ አጽምእ፡ ወስማዕ፡ በኀበ፡ አማልክት። እንዝ፡ ትትፋቀር፡ ሀለወ፡ ሥርዓተ፡ ዝንቱ፡ ዘመጻሕፍት፡ ማእዘን<cb n="b"/>ት።
+ወሳሊዳተ፡ መንግሥት፡ አንብር፡ ውስተ፡ ነቢያት፡ ውስተ፡ ኵሉ፡ ምስፍና፡ ወምኵናን። ከመ፡ ለዓቢይ፡ አስክልጵያዶስ፡ ፍሥሕተ፡ መሥዋዕተ፡ ትዕርግ፡ ወእምድኅረዝ፡
+ለኵሉ፡ አማልክት፡ በእንተ፡ ዕዘዘ፡ ዚአከ፡ ወኵሉ፡ ሠራዊተከ፡ ለዳኅና፡ ይግበሩ፡ ለሀልዎ፡ ወለሊቃነ፡ ልህቃነ፡ መንግሥትከ። ወአሥመሮ፡ ለንጉሥ፡ ነገረ፡ ምክሮሙ።
+ወበጊዜሃ፡ ፈነወ፡ ውስተ፡ አድያም፡ ወበሓውርት፡ አዘዘ፡ ለላእካኒሁ፡ ወአሰርጊዎ፡ በኵሉ፡ ትግርምቱ፡ በዘ፡ በጊዜሃ፡ እምከመ፡ ሰምዑ፡ ክርስቲያን፡ ይኅበሩ፡ ምስሌሆሙ፡
+ገቢረ፡ ርኩስተ፡ ምሥዋዕተ፡ ወመንግሥቶ፡ ለክርስቶስ፡ አኀዙ፡ ያስተአክዩ፡ በበዓሎሙ፡ ለዘቃላንዴስ፡ ዘኢያኑአሴስ፡ መፍቀርያኒሃ፡ ለስበድ፡ በማእከለ፡ ሀገር፡ ይሬእዩ፡
+ርአሶሙ፡ ወሕጎሙ፡ ሰደዱ፡ ወሥርዓተ፡ መንግሥቶሙ፡ ያርእዩ፡ ኵሎሙ፡ <pb n="66r"/><cb n="a"/>እንዘ፡ ይስእሉ፡ ይፀንሑ፡ ወያስተሴብሑ፡ ወይእኅዙ፡ ተሰጠቀሞ፡ በመንግሥቱ።
+ወዘአርዌ፡ ርጉም፡ ጸዋግ፡ ያስጥሞሙ፡ እምኀበ፡ ዕልወቱ፡ ለከይሲ፡ ስብረተ፡ ሐመር፡ ኵላ፡ ሀገር፡ ተሠርዓት፡ ወበኀሙስ፡ ዕለት፡ ጸውዐ፡ ንጉሥ፡ ተንበሎ፡ ጠቢባን፡ ወተማከሮሙ፡
+ማእዜ፡ ይግብሩ። ወኵሎሙ፡ መጽኡ፡ ብሔረ፡ ሮሜ፡ ግብተ፡ ለእበደ፡ ምክር፡ ንጉሥ፡ ወርኵስት፡ መሥዋዕት፡ ይገብሩ፡ በሃይማኖት፡ ወበሕልያን፡ ወአማልክቲሆሙ። ወበዊኦ፡ 
+ቤተ፡ መንግሥት፡ ብዙኀ፡ ጸገወ፡ ወወሀበ፡ ብሩረ፡ ወወርቀ፡ ለኵሉ፡ ሕዝብ፡ እንዘ፡ ይስሕቦሙ፡ ወያልዕፎሙ፡ ለሠዊዕ። ወበ፲ዕለት፡ አዘዘ፡ ንጉሥ፡ ኵሎ፡ ያንጽሕ፡ ርእሶ< ወይሡዑ።</ab>
+          </div>
       </body>
    </text>
 </TEI>
