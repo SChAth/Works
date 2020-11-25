@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Collection of chants (stages before the formation of Dǝggʷā, with no indication of the authorship by Yared)</title>
+            <title xml:id="t1" xml:lang="en">Pre-Dǝggʷā collection(s) of chants</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -21,11 +21,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <sourceDesc>
             <p>Work of the literatures of Ethiopia and Eritrea</p>
          </sourceDesc>
-         <sourceDesc>
-            <listWit>
-               <witness corresp="IVvostochn615"/>
-            </listWit>
-         </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
@@ -36,7 +31,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p/>
+            <p>This record refers to collection(s) of chants in the stages before the formation of Dǝggʷā, 
+               without indication of the authorship by Yāred. In principle, they lack mǝlǝkkǝt.</p>
          </abstract>
          <langUsage><language ident="en">English</language></langUsage>
          <textClass>
@@ -50,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
          <change who="DR" when="2017-03-29">Added keywords</change>
          <change when="2020-03-12" who="DE">Corrected transliteration.</change>
+         <change when="2020-11-25" who="DR">Edited title and abstract as suggested by Jonas Karlsson</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
