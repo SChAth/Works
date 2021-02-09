@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <relation name="lawd:hasAttestation" active="LIT5986CommPsalter" passive="ESrqg015"/>
                 <relation name="lawd:hasAttestation" active="LIT5986CommPsalter" passive="BLorient535"/>
     </listRelation>
-                <div type="edition">
+                <div type="edition" xml:lang="am">
                   <note>The division into text parts follows <ref type="mss" corresp="BLorient353"/>.</note>
                    <div type="textpart" subtype="incipit" xml:id="LIT5985CommPsalms">
                     <label>Amharic commentary on the Psalms of David, line by line</label>
