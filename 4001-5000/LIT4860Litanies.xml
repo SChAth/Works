@@ -57,8 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <textClass>
                 <keywords>
                     <term key="ChristianLiterature"/>
-                    <term key="Liturgy"/>
+                    <term key="Liturgy"/>                 
                     <term key="Missal"/>
+                    <term key="Prayers"/>
                 </keywords>
             </textClass>
             <langUsage>

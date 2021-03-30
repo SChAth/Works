@@ -50,7 +50,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <keywords>
                <term key="Poetry"/>
                <term key="ChristianLiterature"/>
-               <term key="Chants"/>
             </keywords>
          </textClass>
       </profileDesc>

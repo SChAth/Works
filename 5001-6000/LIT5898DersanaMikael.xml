@@ -40,8 +40,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <keywords>
                     <term key="ChristianLiterature"/>
                     <term key="Homily"/>
-                    <term key="Theology"/>
-                    <term key="Translation"/>
+                    <term key="Translation"/><!-- how do we know that it's a translation?-->
+                      <term key="Miracle"/>
                 </keywords>
             </textClass>
             <langUsage>

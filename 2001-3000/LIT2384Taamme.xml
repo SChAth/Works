@@ -50,6 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <term key="Hagiography"/>
                <term key="Apocrypha"/>
                <term key="Miracle"/>
+               <term key="Translation"/>
             </keywords>
          </textClass>
 

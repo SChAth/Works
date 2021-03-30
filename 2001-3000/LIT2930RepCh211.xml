@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT2930RepCh211">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT2930RepCh211">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title xml:lang="gez" xml:id="t1">መልክአ፡ አቡነ፡ ተክለ፡ ሃይማኖት፡</title>
-            <title xml:lang="gez" corresp="#t1" type="normalized">Malkǝʾa ʾabuna Takla Hāymānot</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Malkǝʾa ʾAbuna Takla Hāymānot</title>
             <title xml:lang="en" corresp="#t1"><hi rendition="simple:italic">Malkǝʾ</hi>-hymn to Takla Hāymānot</title>
             <title xml:lang="en" xml:id="t2">Image of Takla Hāymānot</title>
             <editor role="generalEditor" key="AB"/>

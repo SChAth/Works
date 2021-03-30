@@ -49,9 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <keywords scheme="#ethioauthlist">
                <term key="Poetry"/>
                <term key="ChristianLiterature"/>
-               <term key="Chants"/>
-               <term key="Liturgy"/>
-               <term key="Rituals"/>
+             <term key="Liturgy"/>
             </keywords>
          </textClass>
       </profileDesc>
