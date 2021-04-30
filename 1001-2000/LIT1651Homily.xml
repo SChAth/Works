@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
-         <abstract><p>The homily exists in two distinct recensions. <ref type="work" corresp="LIT6404Dersan4recB"/> is probably older
+         <abstract><p>The homily exists in two distinct recensions. <ref type="work" corresp="LIT6405Dersan4recB"/> is probably older
          (attested in <date notBefore="1336" notAfter="1340">1336-1340</date>) and appears less frequently than
        <ref type="work" corresp="LIT6404Dersan4recA"/>.</p></abstract>
          <textClass>
