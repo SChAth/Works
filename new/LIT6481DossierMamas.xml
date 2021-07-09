@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LIT6481DossierMamas" xml:lang="en" type="work">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez" xml:id="t1">Hagiographic Dossier of Māmās</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>The hagiographic dossier including hagiographic texts dedicated to <persName ref="PRS13452Mamas">ʾabuna Māmās of
+                  <placeName ref="LOC7158Agarhese">ʾAgarhǝse</placeName></persName> and ʾƎnda ʾAbuna Māmās in Warʿa Laka
+                  (commemorated on
+                  <date>30 Tāḫśāś</date>), such as <ref type="work" corresp="LIT6470GadlaMamas"/>,
+                <ref type="work" corresp="LIT6471TaammeraMamas"/>, and
+                <ref type="work" corresp="LIT6480MalkeaMamas"/>.</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature"/>
+                    <term key="Hagiography"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2021-07-07">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+              <listRelation>
+                  <relation name="ecrm:P129_is_about" active="LIT6481DossierMamas" passive="PRS13452Mamas"/>
+                  <relation name="saws:contains" active="LIT6481DossierMamas" passive="LIT6470GadlaMamas">
+
+                  </relation>
+                  <relation name="saws:contains" active="LIT6481DossierMamas" passive="LIT6471TaammeraMamas">
+                  </relation>
+                  <relation name="saws:contains" active="LIT6481DossierMamas" passive="LIT6480MalkeaMamas">
+                  </relation>
+              </listRelation>
+            </div><!---->
+        </body>
+    </text>
+</TEI>

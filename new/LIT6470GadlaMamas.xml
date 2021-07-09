@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LIT6470GadlaMamas" xml:lang="en" type="work">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="gez" xml:id="t1">ገድለ፡ ማማስ፡</title>
+                <title xml:lang="gez" corresp="#t1" type="normalized">Gadla Māmās</title>
+                <title xml:lang="en" corresp="#t1">Vita of Māmās</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term key="ChristianLiterature"/>
+                    <term key="Hagiography"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2021-07-05">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                  <div type="edition">
+                      <div type="textpart" subtype="incipit" xml:lang="gez">
+                          <note>The incipit is taken from <ref type="mss" corresp="ESaqm001"/>.</note>
+                          <ab>
+                              በስመ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ፩አምላክ፨ ንቀድም፡ በረድኤተ፨ እግዚእነ፡ ኢየሱስ፡ ክርስቶስ፨
+                              ንጽሕፍ፡ ገድሎ፡ ወጻማሁ፡ ወተአምራቲሁ፡ ወመንክራቲሁ፡ ዘገብሮን፡ እግዚአብሔር፡ በእደዊሁ፡ ለዝንቱ፡ አቡነ፡ ማማስ፡
+                              ኅሩይ፡ ምስተጋድል፡ ዘአሥመሮ፡ ለእግዚአብሔር፡ በሠናይ፡ መልእክቱ፡ ወበመንክር፡ ትሕትናሁ፡ ወዕፁብ፡ ነገሩ።
+                              <gap reason="omitted" resp="DN"/> ወሀሎ፡ ፩ብእሲ፡ በውስተ፡ ሀገር፨ እንተ፡ ስማ፡ ሕፄን፡ በቤተ፡ ክርስቲያነ፡ ቂርቆስ፡ ወስሙ፡
+                              ለውእቱ፡ ብእሲ፡ ይርድአነ፡ እግዚኦ፨ ወስመ፡ ብእሲቱ፡ መርኬዛ፡ ወክልኤሆሙ፡ ጻድቃን፡ እሙንቱ፡ ወፈራህያነ፡ እግዚአብሔር፡ ወአልቦሙ፡ ወሉድ፡
+                          </ab>
+                      </div>
+                      <div type="textpart" subtype="explicit" xml:lang="gez">
+                          <note>This explicit is taken from <ref type="mss" corresp="ESaqm001"/>.</note>
+                          <ab>
+                             ወረሰዮ፡ ከመ፡ ዐርከ፡ መላእክት፨ ወኢይወፅእ፨ እምአፉሁ፡ መርገም፡ ተዘኪሮ፡ ዘይቤ፡ ያዕቆብ፡
+                              ሐዋርያ፡ እም፡፩፡ አፍ፡ ኢይፃእ፡ ቡራኬ፡ ወመርገም፡ ወከማሁ፡ ፈጸመ፡ በኵሉ፡ ፍናዊሁ፡ በረከተ፡ ምሕረቱ፡ ለዝንቱ፡ ጻድቅ፡ ክቡር፡
+                              መስተጋድል፡ ገባሬ፡ ተአምር፡ ወምንክር፡ ኮከበ፡ ብሩህ፡ ፀሐየ፡ ጽድቅ፨ ምሉአ፡ ጸጋ፡ ወሞገስ፡ በረከቱ፡ የሀሉ፡ ምስለ፡ ገብሩ፡ አቡነ፡
+                              ተስፋ፡ ጽዮን፨
+                          </ab>
+                      </div>
+                  </div>
+            <div type="bibliography">
+                <listRelation>
+                  <relation name="ecrm:CLP46i_may_form_part_of" active="LIT6470GadlaMamas" passive="LIT6481DossierMamas"/>
+                  <relation name="ecrm:P129_is_about" active="LIT6470GadlaMamas" passive="PRS13452Mamas"/>
+                    <relation name="lawd:hasAttestation" active="LIT6470GadlaMamas" passive="ESaqm002"/>
+                    <relation name="lawd:hasAttestation" active="LIT6470GadlaMamas" passive="ESaqm001"/>
+                </listRelation>
+            </div>
+
+        </body>
+    </text>
+</TEI>
