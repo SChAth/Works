@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="work" xml:lang="en" xml:id="LIT2145OntheT">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">On the Transfiguration of Our Lord</title>
-            
+           <title xml:lang="gez" xml:id="t1">ድርሳን፡ ዘከመ፡ ተወለጠ፡ ራእዩ፡ ለእግዚእነ፡ በውስተ፡ ደብረ፡ ታቦር፡</title>
+           <title xml:lang="gez" type="normalized" corresp="#t1">Dǝrsān za-kama tawallaṭa rāʾǝyu la-ʾǝgziʾǝna ba-wǝsta Dabra Tābor</title>
+            <title xml:lang="en" xml:id="t2">On the Transfiguration of Our Lord</title>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -34,7 +35,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
          <textClass>
             <keywords>
                <term key="ChristianLiterature"/>
@@ -48,12 +52,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: text record</change>
          <change when="2017-02-15" who="ES">keywords relation</change>
+         <change who="MKr" when="2021-07-12">Added relations, Ethiopic title</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listRelation>
             <relation name="saws:isAttributedToAuthor" active="LIT2145OntheT" passive="PRS8121RetuaH"/>
+            <relation name="saws:formsPartOf" active="LIT2145OntheT" passive="LIT2222RetuaH"/>
+            <relation name="saws:isDifferentTo" active="LIT2145OntheT" passive="LIT5864OnTransfiguration"/>
          </listRelation>
          <ab/>
       </body>
